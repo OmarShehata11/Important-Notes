@@ -1,43 +1,47 @@
-the first command :
-grip ==> used to search for a spacific words or letters in a file and print it out .
-https://linuxtechlab.com/bash-scripting-learn-use-regex-basics/
+# to search for a spacific words or letters in a file and print it out ( <a href="https://linuxtechlab.com/bash-scripting-learn-use-regex-basics/"> grip </a> )
+```bash
+grip 
+```
+
+# to edit a file without open the file 
+```bash
+sed # stream editor
+
+#for example
+
+sed ' s/ <the words you want to change from the file> / <the words you will put it instead of the last words> /' <the file name>
+
+#note ::
+
+#in the last case , the output just only will be different , but the actual text in the file won't be change .
+```
+
+# to spliting the contant of a file , into many files ; depending of the number of lines you choose , or actualy any thing u want 
+```bash
+split 
+
+#for example 
+
+for i in {1..100}; do echo $i >> file.txt ;done  
+#this will create a file called file.txt , and then will put into it numbers for 1 to 100 , and every number in a single line ..
+
+split -l 50 file.txt new_
+#and this will split every 50 lines and put it in the new_ file .
+```
+
+# other commands (search for it):
+```bash
+cut
+awk 
+```
 
 
-
-
-the second :
-sed (stream editor) ==> used for edit a file without open the file .
-
-example -->  sed ' s/ (the words you want to change from the file) / (the words you will put it instead of the last words) /' (the file name)
-
-note ::
-in the last case , the output just only will be different , but the actual text in the file won't be change .
-
-
-
-
-the third :
-split ==> used for spliting the contant of a file , into many files ; depending of the number of lines you choose , or actualy any thing u want 
-
-an exmaple --> for i in {1..100}; do echo $i >> file.txt ;done 
-this will create a file called file.txt , and then will put into it numbers for 1 to 100 , and every number in a single line ..
-
-then -> split -l 50 file.txt new_
-
-and this will split every 50 lines and put it in the new_ file .
-
-
-cut ..
-awk ..
-
-
+# to make you monitor the file and any log will the target do in the server
 ```bash
 
 sudo tail -f var/log/apache2/acces.log
 
 ```
-this will make you monitor the file and any log will the target do in the server
-
 
 
 # netcut ..
@@ -68,7 +72,7 @@ the host and the hacker "let's say" :: nc 192.168.1.5 4445 -nv
 
 ```
 
-<p> search also for socat </p>
+<p> <b> search also for socat </b> </p>
 
 
 # shasum 
