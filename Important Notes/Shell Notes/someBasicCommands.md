@@ -1,4 +1,4 @@
-# to search for a spacific words or letters in a file and print it out ( <a href="https://linuxtechlab.com/bash-scripting-learn-use-regex-basics/"> grip </a> )
+# to search for a spacific words or letters in a file and print it out ( <a href="https://linuxtechlab.com/bash-scripting-learn-use-regex-basics/"> grip</a> )
 ```bash
 grip 
 ```
