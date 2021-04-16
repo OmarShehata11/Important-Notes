@@ -186,6 +186,8 @@ sudo -l
 
 ## at the first, important link and useful <a href="https://devconnected.com/how-to-list-users-and-groups-on-linux/">here</a>
 
+## also useful link for removing and adding users to group <a href="https://linoxide.com/remove-linux-user-from-group/">here</a>
+
 ## to add user to group 
 ```bash
 usermod -a -G <the group name> <the user>
