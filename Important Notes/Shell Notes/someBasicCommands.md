@@ -184,6 +184,8 @@ sudo -l
 ```
 # users and groups
 
+## at the first, important link and useful <a href="https://devconnected.com/how-to-list-users-and-groups-on-linux/">here</a>
+
 ## to add user to group 
 ```bash
 usermod -a -G <the group name> <the user>
