@@ -182,15 +182,20 @@ ln -s <src file> <dis file> # symbolix link (just a refrense to the actual file 
 ```bash
 sudo -l
 ```
-
+# users and groups
 
 ## to add user to group 
 ```bash
 usermod -a -G <the group name> <the user>
 ```
+## to list all the user names or the groups, <a href="https://www.unixtutorial.org/commands/getent">getent</a>, or check also the link <a href="https://phoenixnap.com/kb/how-to-list-users-linux">here</a>
+```bash
+getent passwd # this list all the usernames with it's details
+getent groups # list all the groups with details also
+getent passwd {1000..3000} # list all the normal users according to the UID (username id ).
+```
 
-
-## to see the processes which are running , like open the control panel in windows 
+# to see the processes which are running , like open the control panel in windows 
 ```bash
 top 
 ps 
