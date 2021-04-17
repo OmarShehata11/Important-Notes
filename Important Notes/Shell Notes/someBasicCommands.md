@@ -229,3 +229,8 @@ mynewprog.py
 ```bash
 df
 ```
+
+# to see the boot messages
+```bash
+dmesg # the path of the stored buffer is /var/log/dmesg 
+```
