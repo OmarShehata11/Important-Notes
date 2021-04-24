@@ -7,9 +7,17 @@ grip
 ```bash
 sed # stream editor
 
+sed ' s/ <the words you want to change from the file> / <the words you will put it instead of the last words> /' <the file name>
+
 #for example
 
-sed ' s/ <the words you want to change from the file> / <the words you will put it instead of the last words> /' <the file name>
+echo "hello there it's a great day" | sed 's/day/night/'
+# this will remove the day word and replace it with a night word 
+# the result : hello there it's a great night 
+
+# second example 
+echo "the first day, and the last day" | sed 's/day/night/g'
+# the 'g' in the last, is used when u want to remove all the word you choose and replace it.
 
 #note ::
 
@@ -33,6 +41,10 @@ split -l 50 file.txt new_
 ```bash
 cut
 awk 
+# example for awk
+
+echo "line1, line2 \n col1, col2" | awk '{print $1}'
+# this will print the first col only which contain : line1, col1, 
 ```
 
 
