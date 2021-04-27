@@ -249,6 +249,6 @@ dmesg # the path of the stored buffer is /var/log/dmesg
 
 # to open or close ports (and many other things)
 ```bash
-ufw allow 23/tcp 
+ufw allow 23/tcp  # port 23 tcp for example
 # try the man command to know more about this command.
 ```
