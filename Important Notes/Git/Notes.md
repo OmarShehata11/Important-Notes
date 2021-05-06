@@ -21,6 +21,8 @@ git config --global credential.helper 'cache --timeout=600'
 # to move the Master to the HEAD if they are no in the same commit :
 ```bash
 git branch -f master HEAD
+# try this too later
+git rebase HEAD master
 ```
 
 # to see all the commits
