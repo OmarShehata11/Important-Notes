@@ -17,3 +17,8 @@ git config --global credential.helper cache
 ```bash
 git config --global credential.helper 'cache --timeout=600'
 ```
+
+# to move the Master to the HEAD if they are no in the same commit :
+```bash
+git branch -f master HEAD
+```
