@@ -247,6 +247,7 @@ df
 dmesg # the path of the stored buffer is /var/log/dmesg 
 ```
 
+<<<<<<< HEAD
 # to change the ip address with ifconfig
 ```bash
 sudo ifconfig wlan0 <the ip u want> #for example if you want it 1920168.1.20 
@@ -269,3 +270,10 @@ chsh
 ```bash
 wall
 ```
+=======
+# to open or close ports (and many other things)
+```bash
+ufw allow 23/tcp  # port 23 tcp for example
+# try the man command to know more about this command.
+```
+>>>>>>> 1215e5b1b0b0802a65fbe7f403d3d2a308fabcd1
