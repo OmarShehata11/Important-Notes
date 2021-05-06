@@ -22,3 +22,13 @@ git config --global credential.helper 'cache --timeout=600'
 ```bash
 git branch -f master HEAD
 ```
+
+# to see all the commits
+```bash
+git log --all --decorate -oneline --graph # adog
+```
+
+# to change form commit to another
+```bash
+git checkout <the commit code>
+```
