@@ -246,3 +246,26 @@ df
 ```bash
 dmesg # the path of the stored buffer is /var/log/dmesg 
 ```
+
+# to change the ip address with ifconfig
+```bash
+sudo ifconfig wlan0 <the ip u want> #for example if you want it 1920168.1.20 
+# and also you can change the broadcast and the netmask
+
+# but note that it will cut the network !!!
+```
+
+# to add a getway to your nerwork
+```bash
+sudo route add default gw <the getway address>
+```
+
+# to change the login shell for a user
+```bash
+chsh
+```
+
+# to print a message for all the user on the system
+```bash
+wall
+```
