@@ -1,0 +1,2 @@
+- the #!/bin/sh is called => " shebang "
+and the bash file have to start with this thing. 

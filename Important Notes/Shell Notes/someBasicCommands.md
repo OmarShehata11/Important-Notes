@@ -275,3 +275,37 @@ wall
 ufw allow 23/tcp  # port 23 tcp for example
 # try the man command to know more about this command.
 ```
+
+# Some Important files 
+```bash
+/etc/resolve.conf
+/etc/hosts
+/etc/nsswitch.conf # tell the OS where to go to fetch information it needs
+/etc/rsyslog.conf # and check also the /etc/rsyslog.d directory
+/var/log # direcotory
+|
+|---/var/log/apache2/access.log # log file for the apache web server
+|
+|---/var/log/mysql/mysql_error.log
+|
+|---/var/log/mysql/mysql.log # when the web serves entered to take the data from the DB.
+|
+|---/var/log/mysql/mysql-slow.log 
+|
+|---/var/log/slapd # for the LDAP
+```
+
+# trace the network traffic ( some basic tools ) : 
+```bash
+tcpdump
+wireshark
+```
+
+# to list the open file in the system
+```bash
+lsof # see the man page or the video ( https://drive.google.com/drive/folders/1x4lbPxqJxXVjbynW4pse6ntgQRfJlOgU ) video 9.21
+```
+# sending the log files, search more for it
+```bash
+logger
+```
