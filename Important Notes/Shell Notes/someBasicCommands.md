@@ -309,3 +309,8 @@ lsof # see the man page or the video ( https://drive.google.com/drive/folders/1x
 ```bash
 logger
 ```
+
+# to print any info about the system 
+```bash
+uname
+```
