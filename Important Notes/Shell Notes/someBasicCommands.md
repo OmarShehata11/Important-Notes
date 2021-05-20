@@ -279,7 +279,8 @@ ufw allow 23/tcp  # port 23 tcp for example
 # Some Important files 
 ```bash
 /etc/resolve.conf
-/etc/hosts
+/etc/hostsxx
+
 /etc/nsswitch.conf # tell the OS where to go to fetch information it needs
 /etc/rsyslog.conf # and check also the /etc/rsyslog.d directory
 /var/log # direcotory
@@ -313,4 +314,9 @@ logger
 # to print any info about the system 
 ```bash
 uname
+```
+
+# for scanning a web page tool
+```bash
+derb
 ```
