@@ -280,9 +280,12 @@ ufw allow 23/tcp  # port 23 tcp for example
 ```bash
 /etc/resolve.conf
 /etc/hostsxx
-
+/etc/shadow # all the encrypted password
 /etc/nsswitch.conf # tell the OS where to go to fetch information it needs
 /etc/rsyslog.conf # and check also the /etc/rsyslog.d directory
+
+/usr/share/exploitdb # the exploits which apear in the results of searchexploit tool
+
 /var/log # direcotory
 |
 |---/var/log/apache2/access.log # log file for the apache web server
@@ -318,5 +321,17 @@ uname
 
 # for scanning a web page tool
 ```bash
-derb
+dirb
+nikto
+```
+
+#  searching for and exploit 
+```bash
+searchexploit
+```
+
+# to find your public ip from terminal, check <a href="https://tecadmin.net/5-commands-to-get-public-ip-using-linux-terminal/">here</a>
+```bash
+dig +short myip.opendns.com @resolver1.opendns.com
+curl ifconfig.me
 ```
