@@ -284,7 +284,7 @@ ufw allow 23/tcp  # port 23 tcp for example
 /etc/nsswitch.conf # tell the OS where to go to fetch information it needs
 /etc/rsyslog.conf # and check also the /etc/rsyslog.d directory
 
-/usr/share/exploitdb # the exploits which apear in the results of searchexploit tool
+/usr/share/exploitdb # the exploits which apear in the results of searchsploit tool
 
 /var/log # direcotory
 |
@@ -334,4 +334,9 @@ searchexploit
 ```bash
 dig +short myip.opendns.com @resolver1.opendns.com
 curl ifconfig.me
+```
+
+# to run acommand ina different enviroment 
+```bash
+env
 ```
