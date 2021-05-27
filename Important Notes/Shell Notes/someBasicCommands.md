@@ -180,6 +180,7 @@ nbtscan
 ## other tools for enumeration 
 ```bash
 enum4linux
+smtp-user-enum
 ```
 
 
@@ -283,9 +284,14 @@ ufw allow 23/tcp  # port 23 tcp for example
 /etc/shadow # all the encrypted password
 /etc/nsswitch.conf # tell the OS where to go to fetch information it needs
 /etc/rsyslog.conf # and check also the /etc/rsyslog.d directory
+/etc/*issue
+/etc/*release
 
 /usr/share/exploitdb # the exploits which apear in the results of searchsploit tool
+/usr/share/nmap/scripts # some exploits for a vuln.
+/usr/share/wordlist # contains a list of word that may help you in brute force attack
 
+/var/www/html # if you want to make a webpage on your ip
 /var/log # direcotory
 |
 |---/var/log/apache2/access.log # log file for the apache web server
@@ -339,4 +345,9 @@ curl ifconfig.me
 # to run acommand ina different enviroment 
 ```bash
 env
+```
+
+# to combine passwd and shadow files, ''before cracking with john the ripper''
+```bash
+unshadow
 ```
