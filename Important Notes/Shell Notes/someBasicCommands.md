@@ -351,3 +351,15 @@ env
 ```bash
 unshadow
 ```
+
+# image viewer 
+```bash
+eog
+```
+
+# to open the Cloudflare’s Warp vpn 
+```bash
+sudo wg-quick down wgcf-profile
+sudo wg-quick up wgcf-profile
+systemctl start systemd-resolved.service # the service has to be open
+```
