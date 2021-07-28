@@ -372,3 +372,9 @@ hping3 [des ip] -s [src port] -p [des port] -A "to send ack " -R "to send reset 
 
 yersinia # big important tool for network attacking things
 ```
+
+# other sniffing tools
+```bash
+dsniff
+ettercap
+```
