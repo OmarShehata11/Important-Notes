@@ -377,4 +377,6 @@ yersinia # big important tool for network attacking things
 ```bash
 dsniff
 ettercap
+kismet
+snort
 ```
