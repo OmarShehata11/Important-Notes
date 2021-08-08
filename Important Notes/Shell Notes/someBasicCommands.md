@@ -387,3 +387,9 @@ iwconfig
 
 ifconfig # to conigure a network adaptor in general 
 ```
+
+# for thw WEP, WPA1 and WPA2 password cracking tools
+```bash
+aircrack-ng # with it's tools
+wifite
+```
