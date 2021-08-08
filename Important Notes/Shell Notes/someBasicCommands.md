@@ -380,3 +380,10 @@ ettercap
 kismet
 snort
 ```
+
+# to configure a 'wireless' network adaptor
+```bash
+iwconfig
+
+ifconfig # to conigure a network adaptor in general 
+```
