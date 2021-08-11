@@ -275,6 +275,8 @@ wall
 ```bash
 ufw allow 23/tcp  # port 23 tcp for example
 # try the man command to know more about this command.
+
+fuser # do another things too. see the man page
 ```
 
 # Some Important files 
