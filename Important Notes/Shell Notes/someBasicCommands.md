@@ -131,6 +131,9 @@ sed  '/^$/d' <text file>
 locate <folder name> 
 # or
 which <file name> ## but this for the commands , it shows u where is the file of the command 
+#or
+whereis # find the location for the bin file and the man page also
+where
 ```
 
 ## to see or "watch" the difference happends to spacific job 
