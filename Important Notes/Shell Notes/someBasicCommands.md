@@ -398,3 +398,9 @@ ifconfig # to conigure a network adaptor in general
 aircrack-ng # with it's tools
 wifite
 ```
+
+# to filter IPv4/IPv6 packets and NAT (like a firewall):
+```bash
+iptables
+ip6tables
+```
