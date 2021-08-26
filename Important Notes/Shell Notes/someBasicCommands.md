@@ -406,7 +406,7 @@ iptables
 ip6tables
 ```
 
-# for deppuging ( very important ) :
+# for debugging tools ( very important ) :
 ```bash
 # see the "Hacking : the art of exploitation" book 
 gdb
