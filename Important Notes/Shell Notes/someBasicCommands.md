@@ -298,6 +298,7 @@ fuser # do another things too. see the man page
 
 /var/www/html # if you want to make a webpage on your ip
 /var/log # direcotory
+/var/log/syslog # for any system logs and calles in it, important.
 |
 |---/var/log/apache2/access.log # log file for the apache web server
 |
@@ -403,4 +404,11 @@ wifite
 ```bash
 iptables
 ip6tables
+```
+
+# for deppuging ( very important ) :
+```bash
+# see the "Hacking : the art of exploitation" book 
+gdb
+objdump
 ```
