@@ -291,6 +291,7 @@ fuser # do another things too. see the man page
 /etc/rsyslog.conf # and check also the /etc/rsyslog.d directory
 /etc/*issue
 /etc/*release
+/etc/services  # this is a file contain all the protocols with its ports and other info.
 
 /usr/share/exploitdb # the exploits which apear in the results of searchsploit tool
 /usr/share/nmap/scripts # some exploits for a vuln.
