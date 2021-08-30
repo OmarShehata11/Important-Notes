@@ -412,4 +412,5 @@ ip6tables
 # see the "Hacking : the art of exploitation" book 
 gdb
 objdump
+radare2 # also with other usefull things
 ```
