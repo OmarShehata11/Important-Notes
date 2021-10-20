@@ -414,3 +414,8 @@ gdb
 objdump
 radare2 # also with other usefull things
 ```
+
+# to print the difference between two files 
+``` bash
+diff <file_1> file_2>
+```
