@@ -419,3 +419,15 @@ radare2 # also with other usefull things
 ``` bash
 diff <file_1> file_2>
 ```
+
+# to modify the value of an enviroment variable 
+```bash
+vared <var name> 
+# then it will print the value , and let you modify it as you want .
+```
+
+# to create a named pipe (FIFO) 
+```bash
+mkfifo
+mknod p # p is an option.
+```
