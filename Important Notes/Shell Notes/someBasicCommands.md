@@ -431,3 +431,8 @@ vared <var name>
 mkfifo
 mknod p # p is an option.
 ```
+
+# to print the process ID for a running process
+```bash
+pgrep
+```
