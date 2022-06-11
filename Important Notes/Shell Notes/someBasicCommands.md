@@ -1,6 +1,12 @@
 # to search for a spacific words or letters in a file and print it out ( <a href="https://linuxtechlab.com/bash-scripting-learn-use-regex-basics/"> grip</a> )
 ```bash
 grip 
+# -v word => not for all but not search for word
+# -i => igonre the case of the characters
+# ^word => search for lines that starts with word
+# word$ => search for lines that ends with word
+# grep -v ^$ /textFile => do not print the empty lines
+# grep -l word /directory => search for the word in all file in dircetory; then print the name of files that contains that word.
 ```
 
 # to edit a file without open the file 
@@ -45,6 +51,15 @@ awk
 
 echo "line1, line2 \n col1, col2" | awk '{print $1}'
 # this will print the first col only which contain : line1, col1, 
+
+
+# example for cut
+cut -f 1,2 -d ":" /etc/passwd # to split coloumns with seperator ":" and print the first and second field.
+
+sort
+
+sort -t ":" -k 1 /etc/passwd # to search alphabitic
+sort -t -n ":" -k 3 /etc/passwd # to search numerically
 ```
 
 
@@ -299,7 +314,7 @@ fuser # do another things too. see the man page
 
 /var/www/html # if you want to make a webpage on your ip
 /var/log # direcotory
-/var/log/syslog # for any system logs and calles in it, important.
+| /var/log/syslog # for any system logs and calles in it important.
 |
 |---/var/log/apache2/access.log # log file for the apache web server
 |
